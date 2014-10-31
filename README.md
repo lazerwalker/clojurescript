@@ -62,9 +62,11 @@ The ClojureScript-in-ClojureScript compiler is compiled using Clojure (i.e. on t
 
 First, run `./script/bootstrap` which downloads the necessary dependencies: Clojure, Google Closure Library, Google Closure Compiler, and Rhino. This must be run from the root project directory.
 
-Next, run `./script/compile` to build the compiler. This might give off some warnings, but that's okay.
+Then, download the most recent version of closure-compiler from the [Google repo](http://dl.google.com/closure-compiler/compiler-latest.zip) and extract it to closure/compiler folder.
 
-You should now have a functioning ClojureScript compiler at `./bin/cljs`.
+Finally, run `./script/compile` to build the compiler. This might give off some warnings, but that's okay.
+
+You should now have a functioning ClojureScript compiler at `./bin/cljs`. 
 
 
 ### Usage
